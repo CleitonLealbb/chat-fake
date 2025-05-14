@@ -1,6 +1,6 @@
 # Interface de Chat Web
 
-Este projeto é uma interface de chat web responsiva e interativa construída com HTML, CSS e JavaScript.
+Este projeto é uma interface de chat web responsiva e interativa construída com HTML, CSS e JavaScript. com tecnica e ensinamentos da plataforma de ensino O Novo Progamador.
 
 ## 🔍 Visão geral
 
