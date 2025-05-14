@@ -200,3 +200,46 @@
     font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+@keyframes fadeIn{
+from{
+    opacity: 0;
+    transform: translate(10px);
+}
+to{
+    opacity: 0;
+    transform: translate(0);
+}
+}
+.fade-in{
+    animation: fadeIn 0.6s ease-in-out;
+}
+.emoji--opcao{
+    font-size: 20px;
+    transition: transform 0.2s ease;
+}
+.area--emoji{
+    display: flex;
+   gap: 25;
+   margin-top: 5px;
+}
+.emoji--opcao{
+    font-size: 15px;
+    margin-left: 10px;  
+    font-size: 20px;
+    display: inline;
+    transition: transform 0.2s ease;
+}
+
+.emoji--opcao:hover{
+    background-color: #78E378; 
+    transform: scale(1.2);
+}
+.emoji--selecionado{
+    margin-top: 5px;
+    font-size: 25px;
+}
